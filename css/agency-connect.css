@@ -1,0 +1,106 @@
+/**
+* #.# Agency Connect Form
+*
+*/
+
+div#agency_connect textarea#optional_help_message
+{
+	width: 100%;
+	display: block;
+	border-radius: 3px;
+}
+
+
+div#agency_connect div#widget-footer-holder {
+	text-align: right;
+	margin: 15px 0 0 0;
+	padding: 0;
+}
+
+div#agency_connect #powered-by,
+div#agency_connect #powered-by a {
+	color: #999;
+}
+
+div#agency_connect span#or_call_agency
+{
+	padding: 0 5px 0 0;
+	font-size: 1.2em;
+}
+
+div#agency_connect div#widget-footer-holder p#powered-by
+{
+	font-size: 12px;
+}
+
+
+/**
+* #.# Agency Connect Dialog
+*
+*/
+
+div.ui-dialog textarea#optional_help_message
+{
+	width: 100%;
+}
+
+div.ui-dialog #widget-footer-holder {
+	text-align: right;
+	margin: 15px 0 0 0;
+
+}
+div.ui-dialog  #powered-by,
+div.ui-dialog  #powered-by a {
+	color: #999;
+}
+
+div#agency_connect_dialog p.error
+{
+	color: red;
+}
+
+div#agency_connect_dialog
+{
+	line-height: 100%;
+}
+
+div#agency_connect_dialog{
+	padding: 0 15px 0 15px;
+
+}
+
+
+/**
+* #.# Agency Connect Setup
+*
+*/
+
+div#agency_connect div#widget-footer-holder h4#configuration
+{
+	text-decoration: underline; 
+	font-size: 18px; 
+	font-family: Sans-Serif;
+}
+
+
+/**
+* #.# Agency Connect Bugfixes
+*
+*/
+
+
+/* Dialog Bugfix for the WordPress Editor*/
+
+.ui-widget-header {
+	font-weight:normal;
+	font-family:Georgia,"Times New Roman","Bitstream Charter",Times !important;
+}
+ .ui-front {
+        z-index: 1001 !important;
+    }
+    .ui-widget-overlay {
+        background: none repeat scroll 0 0 #000000 !important;
+        opacity: .6 !important;
+        filter: Alpha(Opacity = 60) !important;
+		z-index: 300001;
+}
